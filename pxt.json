@@ -1,0 +1,32 @@
+{
+    "name": "music",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "datalogger": "*",
+        "servo": "*",
+        "radio-broadcast": "*",
+        "audio-recording": "*",
+        "neopixel": "github:microsoft/pxt-neopixel#v0.7.6",
+        "microturtle": "github:microsoft/pxt-microturtle#v0.0.10",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "8.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
